@@ -29,16 +29,8 @@ public class takeScreenShot {
 
         File file2 = new File("C:\\Users\\Adarsh\\Documents\\ApiTesting\\Selenium Practice\\img3.jpg");
 
-
         FileHandler.copy(file1,file2);
 
-
-
-
         driver.navigate().refresh();
-
-
-
-
     }
 }
