@@ -20,5 +20,4 @@ public class JavascriptExecuter {
         js.executeScript("alert('enter correct login credentials to continue');");
         Thread.sleep(2000);
     }
-
 }
