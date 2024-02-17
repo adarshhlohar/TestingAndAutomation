@@ -1,9 +1,10 @@
 package org.Bridgelabz.example.Locators;
 
-import org.junit.Test;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;

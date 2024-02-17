@@ -1,17 +1,17 @@
 package org.Bridgelabz.example.iFrame;
 
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class IframeDemo {
     WebDriver driver;
     @Test
     public void iframe() throws InterruptedException {
         driver=new ChromeDriver();
-        driver.get("//D:\\TestingAndAutomation\\Selenium Practice\\project2\\src\\test\\java\\org\\Bridgelabz\\example\\HTMLPages\\Page2.html");
+        driver.get("//D://TestingAndAutomation//Selenium Practice//project2//src//test//java//org//Bridgelabz//example//HTMLPages//Page2.html");
 
         //Using a index of the frame
         driver.switchTo().frame(0);
@@ -22,8 +22,5 @@ public class IframeDemo {
         driver.close();
 
         Thread.sleep(3000);
-
-
-
 
     }}

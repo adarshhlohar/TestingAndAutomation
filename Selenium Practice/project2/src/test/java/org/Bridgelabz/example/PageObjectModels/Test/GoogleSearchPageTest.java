@@ -1,9 +1,10 @@
 package org.Bridgelabz.example.PageObjectModels.Test;
 
 import org.Bridgelabz.example.PageObjectModels.Pages.GoogleSearchPageObject;
-import org.junit.Test;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class GoogleSearchPageTest {
 

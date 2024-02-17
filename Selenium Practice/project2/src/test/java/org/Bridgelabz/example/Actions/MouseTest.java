@@ -3,8 +3,7 @@ package org.Bridgelabz.example.Actions;
 import java.time.Duration;
 import java.util.Collections;
 
-import org.junit.Assert;
-import org.junit.Test;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +13,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.interactions.Sequence;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class MouseTest {
     
