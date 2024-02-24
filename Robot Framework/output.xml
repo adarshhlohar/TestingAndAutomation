@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.12 on win32)" generated="20240222 19:01:20.404" rpa="false" schemaversion="3">
+<suite id="s1" name="Test Suite" source="d:\Robot Framework\testcase\test_suite.robot">
+<test id="s1-t1" name="Open and Close Browser" line="5">
+<kw name="Open Browser">
+<arg>https://www.facebook.com/</arg>
+<arg>Chrome</arg>
+<msg timestamp="20240222 19:01:20.515" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20240222 19:01:20.513" endtime="20240222 19:01:20.517"/>
+</kw>
+<kw name="Close Browser">
+<status status="NOT RUN" starttime="20240222 19:01:20.523" endtime="20240222 19:01:20.524"/>
+</kw>
+<status status="FAIL" starttime="20240222 19:01:20.509" endtime="20240222 19:01:20.528">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20240222 19:01:20.415" endtime="20240222 19:01:20.530"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Suite">Test Suite</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240222 19:01:20.498" level="ERROR">Error in file 'd:\Robot Framework\testcase\test_suite.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  c:\Users\Adarsh\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_debug_adapter
+  D:\Robot Framework
+  c:\Users\Adarsh\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src
+  c:\Users\Adarsh\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored
+  c:\ProgramData\robocorp\ht\d266ada_b1f3c24_d9467cde\python310.zip
+  c:\ProgramData\robocorp\ht\d266ada_b1f3c24_d9467cde\DLLs
+  c:\ProgramData\robocorp\ht\d266ada_b1f3c24_d9467cde\lib
+  c:\ProgramData\robocorp\ht\d266ada_b1f3c24_d9467cde
+  c:\ProgramData\robocorp\ht
+  c:\ProgramData\robocorp\ht\d266ada_b1f3c24_d9467cde\lib\site-packages
+  c:\ProgramData\robocorp\ht\d266ada_b1f3c24_d9467cde\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\d266ada_b1f3c24_d9467cde\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\d266ada_b1f3c24_d9467cde\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>
